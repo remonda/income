@@ -38,6 +38,7 @@ int SimpleStack::getTop(){
         return data[top_idx];
     } else {
         std::cerr<<"[GETTOP_ERR]top frame is empty"<<std::endl;
+        std::exit(-1);
     }
 }
 
